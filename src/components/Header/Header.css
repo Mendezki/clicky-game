@@ -1,15 +1,12 @@
-.banner {
-  background-image: url("../../images/bg.jpg") !important;
-  height: 370px;
-  margin: 0 !important;
-  padding: 0 !important;
+.header {
+  background-image: url("../../images/bg.jpg");
+  border-bottom: 2px solid red;
+  height: 350px;
   color: white;
-  font-size: 18px;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
-@media (min-width: 576px) {
-  .banner {
-    font-size: calc(10px + 14 * (100vw - 320px) / 800);
-  }
+.header .inst {
+    margin-top: 80px;
 }
-
